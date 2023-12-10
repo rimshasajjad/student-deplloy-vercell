@@ -1,0 +1,385 @@
+
+.App {
+  text-align: center;
+}
+.homeHeading{
+  text-align: center;
+  color: #3498db;
+  font-weight: 700;
+  margin: 10%;
+
+
+}
+
+
+.navbar-container {
+  display: flex;
+  
+  width: 100%;
+  flex-direction: row-reverse; /* Change to row-reverse */
+  background-color: #3498db;
+  padding: 20px;
+}
+
+.innerNavdesign {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 10px; /* Change to margin-left */
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.innerNavdesign:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+/* CreateStudent.css */
+
+.create-student-container {
+  max-width: 400px;
+  margin: 20px auto;
+  
+}
+
+.create-student-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-student-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.create-student-input,
+.create-student-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-student-button {
+  background-color:#3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-student-button:hover {
+  background-color: white;
+}
+
+
+
+/* App.css */
+
+.create-course-container {
+  max-width: 400px;
+  margin: auto;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color:#f2f2f2 ;
+    border-radius: 10px;
+  }
+
+
+.create-course-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-course-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  
+}
+
+.create-course-input,
+.create-course-textarea {
+  width: 100%;
+  padding: 8px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-course-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-course-button:hover {
+  background-color: #3498db;
+}
+
+/* CreateAttendanceRecord.css */
+
+.create-attendance-record-container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.create-attendance-record-form {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-attendance-record-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.create-attendance-record-input,
+.create-attendance-record-select,
+.create-attendance-record-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-attendance-record-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-attendance-record-button:hover {
+  background-color: #3498db;
+}
+
+
+
+
+
+
+
+
+
+
+/* Add your CSS styles */
+.std-table-container {
+  margin: 20px;
+  font-style: italic;
+}
+
+.std-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.std-table th, .std-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.std-table th {
+  background-color: #f2f2f2;
+}
+
+.std-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.std-table td button {
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+.create-student-button{
+  color: black;
+  background-color: #3498db;
+}
+
+.std-table-container p {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+.attendance-table-container {
+  /* margin: 20px; */
+  
+  font-style: italic;
+}
+
+.attendance-table {
+  width: 100%;
+  height: 60%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+
+.attendance-table th, .attendance-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.attendance-table th {
+  background-color: #f2f2f2;
+}
+
+.attendance-table td button {
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.attendance-table td button:hover {
+  background-color: #45a049;
+}
+
+.attendance-table td button:active {
+  background-color: #3e8e41;
+}
+
+.attendance-table p {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.course-table-container {
+  margin: 20px;
+  font-style: italic;
+}
+
+.course-table {
+  width: 100%;
+  height: 60%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.course-table th, .course-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.course-table th {
+  background-color: #f2f2f2;
+}
+
+.course-table td button {
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.course-table td button:hover {
+  background-color:#3498db ;
+}
+
+.course-table td button:active {
+  background-color: #3e8e41;
+}
+
+.course-table p {
+  margin-top: 10px;
+}
+
+
+
+
+
+.dashboard-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust the width as needed */
+  height: 100vh; /* Set to full height of the viewport */
+  background-color: #f0f0f0; /* Background color of the dashboard */
+  padding: 20px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle border effect */
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+}
+
+.dashboard-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-list-item {
+  margin-bottom: 10px;
+}
+
+.dashboard-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: block;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.dashboard-link:hover,
+.dashboard-link.active-link {
+  background-color: #ddd;
+}
